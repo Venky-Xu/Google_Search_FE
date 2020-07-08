@@ -1,0 +1,41 @@
+[ {
+  "uid" : "86fbfa69d45e31c5",
+  "name" : "MVP Food delivery",
+  "time" : {
+    "start" : 1591958232236,
+    "stop" : 1591958317830,
+    "duration" : 85594
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7a65580c05b1ead2",
+  "name" : "Merchant Food delivery",
+  "time" : {
+    "start" : 1591958145056,
+    "stop" : 1591958232236,
+    "duration" : 87180
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a15b97f94750f6bc",
+  "name" : "MVP Self pickup",
+  "time" : {
+    "start" : 1591958317831,
+    "stop" : 1591958411711,
+    "duration" : 93880
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d4cf09b8197ff907",
+  "name" : "Merchant Self pickup",
+  "time" : {
+    "start" : 1591958089365,
+    "stop" : 1591958145055,
+    "duration" : 55690
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]
