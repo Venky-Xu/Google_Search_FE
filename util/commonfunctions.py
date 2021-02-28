@@ -24,6 +24,12 @@ class Actions(object):
         elem = self.driver.find_element(By.XPATH, xpath)
         return elem.text
 
+    def get_texts(self, xpath):
+        elems = self.get_element_lists()
+        texts = []
+        for i in elems:
+            texts.append(i.text)
+        return texts
     def send_keys(self, xpath, keys):
         elem = self.driver.find_element(By.XPATH, xpath)
         elem.send_keys(keys)
